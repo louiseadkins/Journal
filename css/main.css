@@ -94,14 +94,72 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   body {
+
+   }
+
+ main {
+
+   }
+
+   header {
+    float: top;
+     background-color: lightblue;
+   }
+
+   nav {
+     background-color: pink;
+       width: 200px;
+       height: 200px;
+     float: left;
+
+   }
 
 
+   section {
+     margin-left: 30%
+    width: 70%;
+   }
+
+   article {
+  margin-left: 20%;
+    padding: 10%;
+   }
+
+  a {
+
+  }
+
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
 
 
+   .headerlinks {
 
+   }
 
+   .articlelinks {
+   }
 
+   .entry {
 
+   }
+
+   footer {
+     height: auto;
+     width: auto;
+     padding-top: 10%;
+    position: absolute;
+   }
 
 
 
