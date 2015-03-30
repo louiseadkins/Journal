@@ -94,92 +94,179 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*GENERAL BLAH BLAH BLAH*/
+
    body {
-    #f9f9f9
+    background-color: white;
     margin: 0px;
-     font-family: georgia, serif;
+    font-family: georgia, monospace;
 
    }
 
- main {
+   main {
 
    }
+
+/******* HEADER ******/
+
 
    header {
     float: top;
-      letter-spacing: 5px;
-
-
+    background-color: white;
+    letter-spacing: 5px;
+    height: 75px;
    }
 
-   nav {
-     background-color: pink;
-       width: 200px;
-       height: 200px;
-     float: left;
+   .headerlinks {
+    float: right;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    padding: 1%;
 
-   }
-
-
-   section {
-     background-color: #e6e8fa;
-     margin-left: 30%
-       width: 500px;
-     padding: 5%;
-     overflow: auto;
-   }
-
-   article {
-     margin-left: 20%;
-     width: 500px;
-     padding-bottom: 10%;
-      overflow: auto;
-     background-color: #f0fff0
-
-   }
-
+     }
 
     h1 {
      padding: 2%;
      overflow: auto;
-    }
-
-    h2 {
-      margin-bottom: -20px;
-      background-color: brown;
-    }
-
-    h3 {
-      margin-bottom: -20px;
-      background-color: coral;
-      text-indent: 10px;
+     display: inline;
     }
 
 
+/******* NAV/SIDEBAR ******/
 
-   .headerlinks {
+   nav {
+
+     background-color: #fff;
+     margin-right: 50px;
+     width: 250px;
+     opacity: 0.8;
+     margin-top: 1%;
+     height: auto;
+     position: fixed;
+     position: absolute;
+     float: left;
+
+      }
+
+   .image {
+    width: 250px;
+    height: 250px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+     }
+
+  .entrylinks {
+   background-color: #fffafa;
+   width: 150px;    /* CHANGE TO AUTO*/
+   height: 125px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: scroll;
+
+    }
+
+
+    ul {
+     list-style-type:circle
+    }
+
+
+    /******* ENTRY STUFF ******/
+
+
+   section {
+     background-color: white;
+     width: 70%;
+     height: 520px;
+     padding: 1%;
+     margin-left: 10%;
+     margin-top: 1%;
      float: right;
-     font-size: 16px;
-     letter-spacing: 1px;
-     margin-top: 16px;
+     overflow: scroll;
 
    }
 
-   .articlelist {
+   article {
+     width: 79%;
+     padding: 3%;
+     margin-left: 10%;
+     overflow: scroll;
+     background-color: #fff;
 
-     background-color: steelblue;
    }
 
    .entry {
-
-    background-color: violetred;
+    width: 70%;
+    padding: 3%;
+    background-color: #fff;
 
    }
 
-   footer {
-     background-color: yellowgreen;
-     height: auto
-     padding: 10%;
+/******** STYLING FOR TEXT & LINKS  ************/
+
+  /*APPLICABLE TO ALL LINKS*/
+
+  a {
+   color: black;
+   text-decoration: none;
+  }
+
+  a:visited {
+   color: black;
+   text-decoration: none;
+
+  }
+
+  a:hover {
+    color: gray;
+    text-decoration: none;
+   }
+
+
+   /*ARTICLE TITLES*/
+
+   h2 {
+    margin-bottom: -20px;
+    padding: 5px;
+    background-color: white;
+    text-indent: 2%;
+   }
+
+   /*ARTICLE SUBTITLES*/
+
+   h3 {
+    background-color: #fff;
+    padding: 3px;
+     text-indent: 5%;
+   }
+
+   /*ALL ARTICLE TEXT, AND FOOTER TEXT*/
+
+   p {
+    margin: 3%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+   footer p{
+     background-color: white;
+     height: 20px;
+     float: left;
+     font-size: 14px;
+
 
    }
 
