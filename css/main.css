@@ -234,7 +234,7 @@ textarea {
     margin-bottom: -20px;
     padding: 5px;
     background-color: white;
-    text-indent: 2%;
+
    }
 
    /*ARTICLE SUBTITLES*/
@@ -242,7 +242,8 @@ textarea {
    h3 {
     background-color: #fff;
     padding: 3px;
-     text-indent: 5%;
+    font-style: italic;
+    font-size: 13px;
    }
 
    /*ALL ARTICLE TEXT, AND FOOTER TEXT*/
