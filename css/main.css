@@ -98,7 +98,7 @@ textarea {
 /*GENERAL BLAH BLAH BLAH*/
 
    body {
-    background-color: white;
+    background-color: #f8f8ff;
     margin: 0px;
     font-family: georgia, monospace;
 
@@ -113,7 +113,7 @@ textarea {
 
    header {
     float: top;
-    background-color: white;
+    background-color: #f8f8ff;
     letter-spacing: 5px;
     height: 75px;
    }
@@ -138,7 +138,7 @@ textarea {
 
    nav {
 
-     background-color: #fff;
+     background-color: #f8f8ff;
      margin-right: 50px;
      width: 250px;
      opacity: 0.8;
@@ -160,7 +160,7 @@ textarea {
      }
 
   .entrylinks {
-   background-color: #fffafa;
+   background-color: #f8f8ff;
    width: 150px;    /* CHANGE TO AUTO*/
    height: 125px;
    margin-bottom: 10px;
@@ -180,7 +180,7 @@ textarea {
 
 
    section {
-     background-color: white;
+     background-color: #f8f8ff;
      width: 70%;
      height: 520px;
      padding: 1%;
@@ -196,14 +196,14 @@ textarea {
      padding: 3%;
      margin-left: 10%;
      overflow: scroll;
-     background-color: #fff;
+     background-color: #f8f8ff;
 
    }
 
    .entry {
     width: 70%;
     padding: 3%;
-    background-color: #fff;
+    background-color: #f8f8ff;
 
    }
 
@@ -233,14 +233,14 @@ textarea {
    h2 {
     margin-bottom: -20px;
     padding: 5px;
-    background-color: white;
+    background-color: #f8f8ff;
 
    }
 
    /*ARTICLE SUBTITLES*/
 
    h3 {
-    background-color: #fff;
+    background-color: #f8f8ff;
     padding: 3px;
     font-style: italic;
     font-size: 13px;
@@ -266,7 +266,7 @@ textarea {
 
 
    footer p {
-     background-color: white;
+     background-color: #f8f8ff;
      height: 20px;
      width: 250px;
      float: left;
