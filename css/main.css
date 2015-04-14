@@ -101,8 +101,11 @@ textarea {
     background-color: #f8f8ff;
     margin: 0px;
     font-family: georgia, monospace;
-
    }
+
+   body::-webkit-scrollbar {
+    display: none;
+    }
 
    main {
 
@@ -170,6 +173,10 @@ textarea {
 
     }
 
+    .entrylinks::-webkit-scrollbar {
+     display: none;
+     }
+
 
     ul {
      list-style-type:circle
@@ -190,6 +197,10 @@ textarea {
      overflow: scroll;
 
    }
+
+   section::-webkit-scrollbar {
+    display: none;
+    }
 
    article {
      width: 79%;
