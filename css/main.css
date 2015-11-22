@@ -97,177 +97,161 @@ textarea {
 
 /*GENERAL BLAH BLAH BLAH*/
 
-   body {
-    background-color: white;
-    margin: 0px;
-    font-family: georgia, monospace;
+body {
+  background-color: #f8f8ff;
+  margin: 0px;
+  font-family: georgia, monospace;
+}
 
-   }
-
-   main {
-
-   }
-
+  body::-webkit-scrollbar {
+    display: none;
+  }
 /******* HEADER ******/
 
 
-   header {
-    float: top;
-    background-color: white;
-    letter-spacing: 5px;
-    height: 75px;
-   }
+header {
+  float: top;
+  background-color: #f8f8ff;
+  letter-spacing: 5px;
+  height: 75px;
+}
 
-   .headerlinks {
-    float: right;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: block;
-    padding: 1%;
+.headerlinks {
+  float: right;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 1%;
+}
 
-     }
-
-    h1 {
-     padding: 2%;
-     overflow: auto;
-     display: inline;
-    }
-
+h1 {
+  padding: 2%;
+  overflow: auto;
+  display: inline;
+}
 
 /******* NAV/SIDEBAR ******/
 
-   nav {
+nav {
+  background-color: #f8f8ff;
+  margin-right: 50px;
+  width: 250px;
+  opacity: 0.8;
+  margin-top: 1%;
+  height: auto;
+  position: fixed;
+  position: absolute;
+  float: left;
+}
 
-     background-color: #fff;
-     margin-right: 50px;
-     width: 250px;
-     opacity: 0.8;
-     margin-top: 1%;
-     height: auto;
-     position: fixed;
-     position: absolute;
-     float: left;
+.image {
+  width: 250px;
+  height: 250px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-      }
+.entrylinks {
+  background-color: #f8f8ff;
+  width: 150px;    /* CHANGE TO AUTO*/
+  height: 125px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
 
-   .image {
-    width: 250px;
-    height: 250px;
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
+  .entrylinks::-webkit-scrollbar {
+    display: none;
+  }
 
-     }
+ul {
+  list-style-type: circle;
+}
 
-  .entrylinks {
-   background-color: #fffafa;
-   width: 150px;    /* CHANGE TO AUTO*/
-   height: 125px;
-   margin-bottom: 10px;
-   margin-left: auto;
-   margin-right: auto;
-   overflow: scroll;
+/******* ENTRY STUFF ******/
 
-    }
+section {
+  background-color: #f8f8ff;
+  width: 70%;
+  height: 520px;
+  padding: 1%;
+  margin-left: 10%;
+  margin-top: 1%;
+  float: right;
+  overflow: scroll;
+}
 
+  section::-webkit-scrollbar {
+    display: none;
+  }
 
-    ul {
-     list-style-type:circle
-    }
+article {
+  width: 79%;
+  padding: 3%;
+  margin-left: 10%;
+  overflow: scroll;
+  background-color: #f8f8ff;
+}
 
-
-    /******* ENTRY STUFF ******/
-
-
-   section {
-     background-color: white;
-     width: 70%;
-     height: 520px;
-     padding: 1%;
-     margin-left: 10%;
-     margin-top: 1%;
-     float: right;
-     overflow: scroll;
-
-   }
-
-   article {
-     width: 79%;
-     padding: 3%;
-     margin-left: 10%;
-     overflow: scroll;
-     background-color: #fff;
-
-   }
-
-   .entry {
-    width: 70%;
-    padding: 3%;
-    background-color: #fff;
-
-   }
+.entry {
+  width: 70%;
+  padding: 3%;
+  background-color: #f8f8ff;
+}
 
 /******** STYLING FOR TEXT & LINKS  ************/
 
   /*APPLICABLE TO ALL LINKS*/
 
-  a {
-   color: black;
-   text-decoration: none;
-  }
+a {
+  color: black;
+  text-decoration: none;
+}
 
   a:visited {
-   color: black;
-   text-decoration: none;
-
+    color: black;
+    text-decoration: none;
   }
 
   a:hover {
     color: gray;
     text-decoration: none;
-   }
+  }
 
+/*ARTICLE TITLES*/
 
-   /*ARTICLE TITLES*/
+h2 {
+  margin-bottom: -20px;
+  padding: 5px;
+  background-color: #f8f8ff;
+}
 
-   h2 {
-    margin-bottom: -20px;
-    padding: 5px;
-    background-color: white;
-    text-indent: 2%;
-   }
+/*ARTICLE SUBTITLES*/
 
-   /*ARTICLE SUBTITLES*/
+h3 {
+  background-color: #f8f8ff;
+  padding: 3px;
+  font-style: italic;
+  font-size: 13px;
+}
 
-   h3 {
-    background-color: #fff;
-    padding: 3px;
-     text-indent: 5%;
-   }
+{TimeAgo}
 
-   /*ALL ARTICLE TEXT, AND FOOTER TEXT*/
+/*ALL ARTICLE TEXT, AND FOOTER TEXT*/
 
-   p {
-    margin: 3%;
-   }
+p {
+  margin: 3%;
+}
 
-
-
-
-
-
-
-
-
-
-
-   footer p {
-     background-color: white;
-     height: 20px;
-     width: 250px;
-     float: left;
-     font-size: 14px;
-   }
+footer p {
+  background-color: #f8f8ff;
+  height: 20px;
+  width: 250px;
+  float: left;
+  font-size: 14px;
+}
 
 
 
